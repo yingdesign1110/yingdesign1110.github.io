@@ -52,6 +52,8 @@ table {
 }
 
 body {
+
+
 	-webkit-text-size-adjust: none;
 }
 
@@ -99,7 +101,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #60568a;
+		background: #ae989a;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,7 +118,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #eeb468;
+		color: #f0eff3;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
@@ -245,7 +247,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px rgba(212, 212, 255, 0.1);
+		border-left: solid 4px rgba(249, 128, 91, 0.1);
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -2765,7 +2767,8 @@ input, select, textarea {
 			}
 
 			.tiles article h3 {
-				font-size: 1.75em;
+				font-size: 3em;
+				color: bisque;
 			}
 
 				.tiles article h3 a:hover {
@@ -2792,7 +2795,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.7;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3410,12 +3413,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #524141;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3481,13 +3484,13 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 60vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
 
 			#banner.major.alt {
-				opacity: 0.75;
+				opacity: 0.85;
 			}
 
 		#banner.style1:after {
