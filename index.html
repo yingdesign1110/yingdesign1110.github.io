@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Lily的室內設計</title>
+		<title>Ying室內設計</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo">Lily Design</a>
+						<a href="index.html" class="logo">Ying Design</a>
 						
 					</header>
 
@@ -29,7 +29,7 @@
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-								<h1 style="color: cornsilk;">Lily的室內設計作品</h1>
+								<h1 style="color: cornsilk;">YING~室內設計</h1>
 							</header>
 							<div class="content">
 								<p style="font-size: 1.5em;">室內設計網頁設計實作</p>
@@ -106,6 +106,9 @@
 								<div class="inner">
 									<header class="major">
 										<h2>了解綠建築</h2>
+										<span class="image">
+											<img src="images/green.jpg" alt="" />
+										</span>
 									</header>
 									<p>綠建築標章及建築能效標示</p>
 									<ul class="actions">
@@ -120,7 +123,7 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form method="post" action="#"  onsubmit="return mailto()">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -135,6 +138,17 @@
 											<textarea name="message" id="message" rows="6"></textarea>
 										</div>
 									</div>
+									        <!-- 呼叫email程式的語法:start -->
+        <script>
+            function mailto() {
+                name = document.getElementsByName('name')[0].value; // 把使用者輸入的名稱拿出來用
+                email = document.getElementsByName('email')[0].value; // 把使用者輸入的email拿出來用
+                message = document.getElementsByName('message')[0].value.replaceAll('\n', '%0D%0A'); // 把使用者輸入的內容拿出來用
+                window.location.href = "mailto:jhihying1110@gmail.com?subject=我沒有問題&body=您好, 我是" + name + ":%0D%0A" + message;
+                return false;
+            }
+        </script>
+        <!-- 呼叫email程式的語法:end -->
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
