@@ -1913,7 +1913,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(212, 212, 255, 0.035);
+		background: rgba(59, 59, 88, 0.35);
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -3562,7 +3562,7 @@ input, select, textarea {
 
 					#banner > .inner .content > * {
 						margin-right: 0;
-						margin-bottom: 2em;
+						margin-bottom: 2.3em;
 					}
 
 				#banner.major {
@@ -3957,4 +3957,5 @@ input, select, textarea {
 			color: rgb(16, 35, 71);
 			font-size: 1.3em;
 			background-color: #a1a896;
+			font-weight: 600;
 		}
