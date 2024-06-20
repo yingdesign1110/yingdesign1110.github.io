@@ -3953,4 +3953,36 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
-		
+		/* aaron:新增inside class來設定設計理念區塊背景和文字顏色和字型大小 */
+.inside {
+    background-color: #4e5172;
+    color: #cddbee;
+    font-size: 1.5em;
+}
+
+/* aaron:新增一個major2讓設定設計理念區塊的標題底線修改不要影響到上面其他的底線樣式 */
+header.major2 {
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -ms-max-content;
+    width: max-content;
+    margin-bottom: 2em;
+}
+
+/* aaron:新增一個major3讓設定設計理念區塊的標題底線修改不要影響到上面其他的底線樣式 */
+header.major2 > :first-child:after {
+    content: '';
+    background-color: #f7dfa2; /* aaron: 色塊標題下方底線的顏色 */
+    display: block;
+    height: 2px;
+    margin: 0.325em 0 0.5em 0;
+    width: 100%;
+}
+.style-one {
+    background-color: #125c1e;
+    color: #2a2f4a;
+}
+
+.style-one .inner .major2 h2 {
+    color: #37a6cb;
+}
