@@ -4013,3 +4013,13 @@ header.major2 > :first-child:after {
 .iho:hover{
 	color: rgb(80, 245, 245);
 }
+.iho{
+display: inline-block
+position:relative;	
+}
+.iho::before{
+	content: "";
+}
+	.iho:hover::before{
+	content: "測試測試";
+}
