@@ -4000,7 +4000,7 @@ header.major2 > :first-child:after {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 2px 2px 10px 1px #242943;
+	box-shadow: 2px 2px 10px 1px #070707;
 	font-size: 1.2em;
 
 	overflow: hidden;
